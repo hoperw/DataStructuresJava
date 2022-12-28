@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        BST tree = new BST();
+        RecursiveBST tree = new RecursiveBST();
 
 //        tree.addNode(4, "data");
 //        tree.addNode(3, "data");
@@ -19,7 +19,8 @@ public class Main {
         tree.addNodeRecursive(9, "data");
 
 
-        tree.displayInOrder();
+        //tree.displayPreOrder();
+        tree.displayPreOrderItr();
 
     }
 }
